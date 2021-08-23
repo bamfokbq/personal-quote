@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&display=swap');
+
+:root{
+  --color-1:#89216B;
+  --color-2:#DA4453;
+  --color-3:#11998e;
+  --gradient-1: linear-gradient(0.35turn, var(--color-1),  var(--color-2), var(--color-3));
+  --gradient-2: linear-gradient(0.25turn, #89216B,#11998e);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height:calc( 100vh- 10rem);
+  font-family: 'Slabo 37px', serif;
+  color: rgb(53, 52, 52);
+  background:#ecf0f1;
+  font-family: 'Slabo 27px';
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Acme', sans-serif;
+  background: var(--gradient-1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
 }
+
