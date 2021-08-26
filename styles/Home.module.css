@@ -9,9 +9,9 @@
 
 .container .siteName{
     margin-bottom: 2vh;
-     font-size: clamp(2.5rem, 1.7153rem + 2.6368vw, 4.5rem);
-     padding: 0.5rem 1vw;
-     border: 5px solid var(--color-1);
+     font-size: clamp(1.5rem, calc(2vw + 1rem), 3vw);
+     padding: 1.8vw 1.3vw;
+     border: 2px solid var(--color-1);
      border-radius: 10px;
      width: max-content;
      margin: 0 auto;

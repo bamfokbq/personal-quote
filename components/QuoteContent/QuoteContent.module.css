@@ -2,32 +2,43 @@
     background-color: #fff;
     border-radius: 10px;
     padding: 2vw;
-    width: 80vw;
+    width: 95vw;
     border: 1px solid #ccc;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.25);
     font-family: 'Baloo Da 2', cursive;
-    font-size: clamp(2rem, calc(3vw - 2rem), 4vw);
+    font-size: clamp(1.5rem, calc(2vw + 1rem), 3vw);
 }
 @media(min-width:550px){
   .content{
        width: 50vw;
   }
 }
+.author{
+      font-size: clamp(1.5rem, calc(2vw + 1rem), 3vw);
+}
 .author,.quote{
      margin-bottom: 1.5vh;
 }
+
 .date{
     color: #999999;
-    margin:0 auto;
+    margin-right: 0;
+    font-size: clamp(3vw, calc(2vw + 1.5rem), 4.3vw);
 }
 .quote{
-    padding:0.5rem 1vw;
-    border-radius: 5px;
+  padding:0.5rem 1vw;
+  border-radius: 5px;
   color: white  ;
-  font-weight: 500;
+  font-weight: 300;
   background-image: linear-gradient(to left, var(--color-1),  var(--color-3));
 }
 .category{
      font-size: clamp(1rem, calc(1vw - 1.5rem), 1.3vw);
      text-align: center;
+     display: flex;
+     column-gap: 0.8rem;
+}
+.category span{
+     font-weight: bold;
+     margin-right: 0.5vw;
 }
