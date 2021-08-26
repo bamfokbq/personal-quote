@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500&display=swap');
 
 :root{
-  --color-1:#89216B;
+  --color-1:#89216b;
   --color-2:#DA4453;
   --color-3:#11998e;
   --gradient-1: linear-gradient(0.35turn, var(--color-1),  var(--color-2), var(--color-3));
