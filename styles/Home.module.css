@@ -1,6 +1,6 @@
 .container{
   max-width: 70vw;
-  height:100vh;
+  max-height:100vh;
   margin: 0 auto;
   display:flex;
   flex-direction: column;
@@ -10,9 +10,9 @@
 
 .container .siteName{
     margin-bottom: 2vh;
-     font-size: clamp(1.5rem, calc(2vw + 1rem), 3vw);
+     font-size: clamp(2rem, calc(2vw + 1rem), 3vw);
      padding: 1.8vw 1.3vw;
-     border: 2px solid var(--color-1);
+     letter-spacing: 2rem;
      border-radius: 10px;
      width: max-content;
      margin: 0 auto;
@@ -20,5 +20,5 @@
 .signature{
   margin: 3vh auto;
   color: var(--color-3);
-  opacity:0.7
+  opacity:0.4
 }

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from '../components/Header/Header';
 import QuoteContent from '../components/QuoteContent/QuoteContent';
 import styles from '../styles/Home.module.css';
+import Image from 'next/image';
 
 export default function Home() {
   const [quotes, setQuotes] = useState([]);
@@ -27,6 +28,12 @@ export default function Home() {
         <div key={quote.id}>
           <Header>
             <h1 className={styles.siteName}> WISBOOK</h1>
+            <Image
+              src='/images/undraw_meditation_re_gll0.svg'
+              width={400}
+              height={400}
+              className={styles.image}
+            />
           </Header>
           <QuoteContent
             id={quote.id}

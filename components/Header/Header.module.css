@@ -1,4 +1,7 @@
 
 .header{
      margin: 5vh auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
