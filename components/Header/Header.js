@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.css';
 import Image from 'next/image'
 
-const Header = (props) => {
+const Header = () => {
   return (
     <header className={styles.header}>
       <h1 className={styles.siteName}>WISBOOK</h1>
