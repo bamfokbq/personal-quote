@@ -17,13 +17,13 @@
       font-size: clamp(1.5rem, calc(2vw + 1rem), 3vw);
 }
 .author,.quote{
-     margin-bottom: 1.5vh;
+     margin-bottom: 0.5vh;
 }
 
 .date{
     color: #999999;
     margin-right: 0;
-    font-size: clamp(3vw, calc(2vw + 1.5rem), 4.3vw);
+    font-size: clamp(2vw, calc(1.5vw + 1.5rem), 3.3vw);
 }
 .quote{
   padding:0.5rem 1vw;
@@ -48,4 +48,11 @@
      height: auto;
      margin: 0 auto;
 
+}
+
+@media(max-width:450px){
+  .content{
+       width: 95vw;
+       margin: 0 auto;
+  }
 }

@@ -1,11 +1,17 @@
 import React from 'react';
 import styles from './Header.module.css';
+import Image from 'next/image'
 
 const Header = (props) => {
-  const author = 'Samuel Quaicoe';
   return (
     <header className={styles.header}>
-      {props.children}
+      <h1 className={styles.siteName}>WISBOOK</h1>
+      <Image
+        src='/images/undraw_meditation_re_gll0.svg'
+        width={300}
+        height={200}
+        className={styles.image}
+      />
     </header>
   );
 };

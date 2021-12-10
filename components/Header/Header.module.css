@@ -1,7 +1,17 @@
 
 .header{
-     margin: 5vh auto;
+     margin: 2vh auto;
      display: flex;
      flex-direction: column;
      justify-content: center;
+}
+
+.header h1{
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.siteName{
+     font-size: clamp(1rem, calc(1vw - 1.5rem), 1.2vw);
 }

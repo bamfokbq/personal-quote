@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './QuoteContent.module.css';
 
 const QuoteContent = ({ author, quote, date, tags }) => {
-  console.log(tags);
   return (
     <section className={styles.content}>
       <p className={styles.date}>Date: {date}</p>

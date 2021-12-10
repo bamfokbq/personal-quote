@@ -26,15 +26,7 @@ export default function Home() {
     <div className={styles.container}>
       {quotes.map((quote) => (
         <div key={quote.id}>
-          <Header>
-            <h1 className={styles.siteName}> WISBOOK</h1>
-            <Image
-              src='/images/undraw_meditation_re_gll0.svg'
-              width={400}
-              height={400}
-              className={styles.image}
-            />
-          </Header>
+          <Header />
           <QuoteContent
             id={quote.id}
             author={quote.author}
